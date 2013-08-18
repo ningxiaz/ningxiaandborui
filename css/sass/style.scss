@@ -1,0 +1,150 @@
+//typography
+$base-font: 'Open Sans', 'Helvetica Neue', Arial, 'Hiragino Sans GB', sans-serif;
+
+//colors
+$grey-1: #444;
+$grey-2: #666;
+$grey-3: #999;
+$grey-4: #ccc;
+$accent-color: #2ecc71;
+
+a:hover, a:active{
+	text-decoration: none;
+}
+
+section{
+	padding-bottom: 80px;
+}
+
+#intro{
+	padding-top: 50px;
+
+	.header{
+		text-align: center;
+		margin-bottom: 20px;
+
+		h1{
+			font-family: $base-font;
+			font-weight: bold;
+			color: $accent-color;
+		}
+
+		h4{
+			font-family: $base-font;
+			color: $grey-3;
+		}
+	}
+
+	.photo{
+		width: 200px;
+		height: 200px;
+		border-radius: 200px;
+		margin: 0 auto; //center the image within the grid
+	}
+
+	#ningxia{
+		.photo{
+			background: url(../../images/ningxia.JPG) no-repeat;
+			background-size: 200px auto;
+		}
+	}
+
+	#borui{
+		text-align: center;
+		.photo{
+			background: url(../../images/borui.JPG) no-repeat;
+			background-size: 200px auto;
+		}
+	}
+
+	.desc{
+		width: 200px;
+		margin: 0 auto;
+		font-family: $base-font;
+		color: $grey-3;
+		font-size: 16px;
+		margin-bottom: 30px;
+		text-align: center;
+		margin-top: 10px;
+
+
+		p{
+			padding-bottom: 6px;
+		}
+
+		a.name{
+			font-weight: bold;
+			font-size: 18px;
+			color: $grey-2;
+		}
+
+		a.name:hover, a.name:active{
+			color: $accent-color;
+		}
+	}
+
+	p.teaser{
+		font-family: $base-font;
+		color: $grey-2;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	p.count{
+		font-family: $base-font;
+		color: $grey-3;
+		font-size: 18px;
+
+		span{
+			color: $accent-color;
+		}
+	}
+
+
+	.button{
+		width: 160px;
+		height: 50px;
+		text-align: center;
+		background-color: $accent-color;
+		color: white;
+		font-family: $base-font;
+		font-size: 24px;
+		line-height: 50px;
+		cursor: pointer;
+	}
+
+	.more{
+		font-family: $base-font;
+		font-size: 18px;
+		width: 200px;
+		text-align: center;
+		margin: 10px auto;
+
+		a{
+			color: $grey-4;
+		}
+
+		a:hover, a:active{
+			color: $accent-color;
+		}
+	}
+}
+
+#motivation{
+
+	#poster{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+
+
+p.narrative{
+	font-family: $base-font;
+	color: $grey-2;
+	font-size: 18px;
+	line-height: 24px;
+	padding-bottom: 20px;
+}
+
