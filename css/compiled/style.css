@@ -2,16 +2,19 @@ a:hover, a:active {
   text-decoration: none; }
 
 section {
-  padding-bottom: 80px; }
+  padding-bottom: 100px; }
 
 h1 {
   font-family: "Open Sans", "Helvetica Neue", Arial, "Hiragino Sans GB", sans-serif;
   font-weight: bold;
-  color: #2ecc71; }
+  color: #2ecc71;
+  font-size: 38px;
+  line-height: 46px; }
 
 h4 {
   font-family: "Open Sans", "Helvetica Neue", Arial, "Hiragino Sans GB", sans-serif;
-  color: #999999; }
+  color: #999999;
+  font-size: 22px; }
 
 .clear {
   clear: both; }
@@ -29,8 +32,17 @@ h4 {
 .button:active {
   background-color: #25a25a; }
 
+a.ref {
+  color: #2ecc71; }
+
+a.ref:hover {
+  color: #54d98c; }
+
+a.ref:active {
+  color: #25a25a; }
+
 #intro {
-  padding-top: 50px; }
+  padding-top: 30px; }
   #intro .header {
     text-align: center;
     margin-bottom: 20px; }
@@ -93,13 +105,18 @@ h4 {
     text-align: center;
     margin: 10px auto; }
     #intro .more a {
-      color: #f9f9f7; }
+      color: #ccc; }
     #intro .more a:hover, #intro .more a:active {
       color: #2ecc71; }
 
 #motivation #poster {
   width: 100%;
   margin-bottom: 30px; }
+#motivation .caption {
+  font-family: "Open Sans", "Helvetica Neue", Arial, "Hiragino Sans GB", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #999999; }
 
 p.narrative {
   font-family: "Open Sans", "Helvetica Neue", Arial, "Hiragino Sans GB", sans-serif;
@@ -138,7 +155,8 @@ p.narrative {
   text-align: center; }
 #service h4 {
   font-size: 24px;
-  margin: 40px 0; }
+  margin: 40px 0;
+  line-height: 30px; }
 #service h4 span {
   color: #2ecc71; }
 #service #large_button {
@@ -163,3 +181,10 @@ p.narrative {
     font-family: "Open Sans", "Helvetica Neue", Arial, "Hiragino Sans GB", sans-serif;
     font-size: 13px;
     color: #999999; }
+    #footer .disclaimer .love {
+      background: url(../../images/love.png) no-repeat;
+      background-size: 13px auto;
+      width: 13px;
+      height: 11px;
+      opacity: 0.8;
+      display: inline-block; }
