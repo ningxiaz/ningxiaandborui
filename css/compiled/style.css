@@ -23,6 +23,12 @@ h4 {
   font-family: "Open Sans", "Helvetica Neue", Arial, "Hiragino Sans GB", sans-serif;
   cursor: pointer; }
 
+.button:hover {
+  background-color: #54d98c; }
+
+.button:active {
+  background-color: #25a25a; }
+
 #intro {
   padding-top: 50px; }
   #intro .header {
@@ -78,7 +84,8 @@ h4 {
     width: 160px;
     height: 50px;
     font-size: 24px;
-    line-height: 50px; }
+    line-height: 50px;
+    border-radius: 4px; }
   #intro .more {
     font-family: "Open Sans", "Helvetica Neue", Arial, "Hiragino Sans GB", sans-serif;
     font-size: 18px;
@@ -139,7 +146,8 @@ p.narrative {
   height: 60px;
   margin: 0 auto;
   font-size: 24px;
-  line-height: 60px; }
+  line-height: 60px;
+  border-radius: 9px; }
 
 #footer {
   padding: 20px 0;
