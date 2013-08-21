@@ -155,7 +155,7 @@ a.ref:active{
 		font-size: 18px;
 		width: 200px;
 		text-align: center;
-		margin: 10px auto;
+		margin: 20px auto;
 
 		a{
 			color: #ccc;
@@ -257,6 +257,14 @@ p.narrative{
 		font-size: 24px;
 		line-height: 60px;
 		border-radius: 9px;
+	}
+
+	.contact{
+		margin-top: 40px;
+		font-family: $base-font;
+		font-size: 18px;
+		color: $grey-3;
+		line-height: 22px;
 	}
 }
 

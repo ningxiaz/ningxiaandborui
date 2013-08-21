@@ -103,7 +103,7 @@ a.ref:active {
     font-size: 18px;
     width: 200px;
     text-align: center;
-    margin: 10px auto; }
+    margin: 20px auto; }
     #intro .more a {
       color: #ccc; }
     #intro .more a:hover, #intro .more a:active {
@@ -166,6 +166,12 @@ p.narrative {
   font-size: 24px;
   line-height: 60px;
   border-radius: 9px; }
+#service .contact {
+  margin-top: 40px;
+  font-family: "Open Sans", "Helvetica Neue", Arial, "Hiragino Sans GB", sans-serif;
+  font-size: 18px;
+  color: #999999;
+  line-height: 22px; }
 
 #footer {
   padding: 20px 0;
