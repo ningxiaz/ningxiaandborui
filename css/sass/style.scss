@@ -167,6 +167,41 @@ a.ref:active{
 	}
 }
 
+#more_intro{
+	.first{
+		margin-bottom: 40px;
+	}
+
+	.photo{
+		width: 100px;
+		height: 100px;
+		border-radius: 200px;
+		margin: 0 auto; //center the image within the grid
+	}
+
+	.ningxia{
+		background: url(../../images/ningxia.JPG) no-repeat;
+		background-size: 100px auto;
+	}
+
+	.borui{
+		background: url(../../images/borui.JPG) no-repeat;
+		background-size: 100px auto;
+	}
+
+	.name{
+		text-align: center;
+		font-weight: bold;
+		font-size: 16px;
+		color: $grey-2;
+		margin-top: 10px;
+	}
+
+	a{
+		
+	}
+}
+
 #motivation{
 
 	#poster{
